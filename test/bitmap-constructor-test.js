@@ -52,8 +52,5 @@ describe('Testing constructor', function() {
     it('should have black colorArray with members equal to #000000', function() {
       expect(this.blackObj.colorArray.slice(0,4)).to.be.deep.equal(Buffer.from([0x00,0x00,0x00,0x00]));
     });
-    // it('should have green colorArray with members equal to #00FF00', function() {
-    //   expect(this.greenObj.colorArray.slice(0,4)).to.be.deep.equal(Buffer.from([0x00,0xff,0x00,0x00]));
-    // });
   });
 });
